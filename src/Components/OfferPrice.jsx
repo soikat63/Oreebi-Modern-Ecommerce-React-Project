@@ -1,6 +1,9 @@
 import React from "react";
 import Container from "./layer/Container";
 import Image from "./layer/Image";
+import Ad1 from "../assets/Ad1.png"
+import Ad2 from "../assets/Ad2.png"
+import Ad3 from "../assets/Ad3.png"
 
 const OfferPrice = () => {
   return (
@@ -9,7 +12,7 @@ const OfferPrice = () => {
         <div className="left lg:w-[780px] w-auto lg:h-[780px] h-auto ">
           <Image
             className="w-full h-full object-contain"
-            src="./src/assets/Ad_1.png"
+            src={Ad1}
             alt="./src/assets/Ad_1.png"
           />
         </div>
@@ -18,7 +21,7 @@ const OfferPrice = () => {
           <div className="top lg:w-full w-auto lg:h-[370px] h-auto ">
             <Image
               className="w-full h-full object-contain"
-              src="./src/assets/Ad_2.png"
+              src={Ad2}
               alt="./src/assets/Ad_2.png"
             />
           </div>
@@ -26,7 +29,7 @@ const OfferPrice = () => {
           <div className="bottom lg:w-full w-auto lg:h-[370px] h-auto ">
             <Image
               className=" w-full h-full object-contain"
-              src="./src/assets/Ad_3.png"
+              src={Ad3}
               alt="./src/assets/Ad_3.png"
             />
           </div>

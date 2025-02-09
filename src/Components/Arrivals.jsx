@@ -5,6 +5,10 @@ import Slider from "react-slick";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import Tittle from "./layer/Tittle";
+import PI01 from "../assets/PI01.png"
+import PI02 from "../assets/PI02.png"
+import PI03 from "../assets/PI03.png"
+import PI04 from "../assets/PI04.jpg"
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -87,7 +91,7 @@ const Arrivals = () => {
               <ProductItem
                 className="mx-auto"
                 offer="10%"
-                src="../src/assets/PI01.png"
+                src={PI01}
                 alt="../src/assets/PI01.png"
                 text="  Basic Crew Neck Tee"
                 price="$44.00"
@@ -97,7 +101,7 @@ const Arrivals = () => {
               <ProductItem
                 className="mx-auto"
                 offer="10%"
-                src="../src/assets/PI02.png"
+                src={PI02}
                 alt="../src/assets/PI02.png"
                 text="  Basic Crew Neck Tee"
                 price="$44.00"
@@ -107,7 +111,7 @@ const Arrivals = () => {
               <ProductItem
                 className="mx-auto"
                 offer="10%"
-                src="../src/assets/PI03.png"
+                src={PI03}
                 alt="../src/assets/PI03.png"
                 text="  Basic Crew Neck Tee"
                 price="$44.00"
@@ -117,7 +121,7 @@ const Arrivals = () => {
               <ProductItem
                 className="mx-auto"
                 offer="10%"
-                src="../src/assets/PI04.jpg"
+                src={PI04}
                 alt="../src/assets/PI04.jpg"
                 text="  Basic Crew Neck Tee"
                 price="$44.00"
@@ -127,7 +131,7 @@ const Arrivals = () => {
               <ProductItem
                 className="mx-auto"
                 offer="10%"
-                src="../src/assets/PI01.png"
+                src={PI01}
                 alt="../src/assets/PI01.png"
                 text="  Basic Crew Neck Tee"
                 price="$44.00"
@@ -137,7 +141,7 @@ const Arrivals = () => {
               <ProductItem
                 className="mx-auto"
                 offer="10%"
-                src="../src/assets/PI02.png"
+                src={PI02}
                 alt="../src/assets/PI02.png"
                 text="  Basic Crew Neck Tee"
                 price="$44.00"
