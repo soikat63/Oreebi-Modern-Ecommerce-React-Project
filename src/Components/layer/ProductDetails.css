@@ -1,0 +1,17 @@
+
+.slick-dots ul li:nth-child(1) .slider{
+    background: url(/src/assets/BS04.jpg) no-repeat center /cover;
+}
+.slick-dots ul li:nth-child(2) .slider{
+    background: url(/src/assets/BS03.jpg) no-repeat center /cover;
+}
+.slick-dots ul li:nth-child(3) .slider{
+    background: url(/src/assets/BS02.jpg) no-repeat center /cover;
+}
+.slick-dots ul li:nth-child(4) .slider{
+    background: url(/src/assets/BS01.jpg) no-repeat center /cover;
+}
+.slick-dots ul li:nth-child(5) .slider{
+    background: url(/src/assets/PI01.png) no-repeat center /cover;
+    
+}
