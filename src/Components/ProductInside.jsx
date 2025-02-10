@@ -7,9 +7,14 @@ import Input from "./layer/Input";
 import Slider from "react-slick";
 import Image from "./layer/Image";
 import "../Components/layer/ProductDetails.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { FaCircle, FaStar } from "react-icons/fa";
 import { FiMinus, FiPlus } from "react-icons/fi";
+import BS04 from "../assets/BS04.jpg"
+import BS03 from "../assets/BS03.jpg"
+import BS02 from "../assets/BS02.jpg"
+import BS01 from "../assets/BS01.jpg"
+import PI01 from "../assets/PI01.png"
 
 const ProductInside = () => {
   var settings = {
@@ -44,7 +49,7 @@ const ProductInside = () => {
                 <Image
                   className="w-full h-full object-contain"
                   href="/Product"
-                  src="../src/assets/BS04.jpg"
+                  src={BS04}
                   alt="../src/assets/Image01.png"
                 />
               </div>
@@ -52,7 +57,7 @@ const ProductInside = () => {
                 <Image
                   className="w-full h-full object-contain"
                   href="/Product"
-                  src="../src/assets/BS03.jpg"
+                  src={BS03}
                   alt="../src/assets/Image01.png"
                 />
               </div>
@@ -60,7 +65,7 @@ const ProductInside = () => {
                 <Image
                   className="w-full h-full object-contain"
                   href="/Product"
-                  src="../src/assets/BS02.jpg"
+                  src={BS02}
                   alt="../src/assets/Image01.png"
                 />
               </div>
@@ -68,7 +73,7 @@ const ProductInside = () => {
                 <Image
                   className="w-full h-full object-contain"
                   href="/Product"
-                  src="../src/assets/BS01.jpg"
+                  src={BS01}
                   alt="../src/assets/Image01.png"
                 />
               </div>
@@ -76,7 +81,7 @@ const ProductInside = () => {
                 <Image
                   className="w-full h-full object-contain"
                   href="/"
-                  src="../src/assets/PI01.png"
+                  src={PI01}
                   alt="../src/assets/Image01.png"
                 />
               </div>
@@ -165,8 +170,8 @@ const ProductInside = () => {
 
             {/* This section in use for button -start */}
             <div className=" lg:flex  items-center lg:gap-x-10 mt-4">
-              <ButtonS className="lg:flex hidden">Add To Wish List</ButtonS>
-              <ButtonS>Add To Cart</ButtonS>
+              <ButtonS className="lg:flex hidden px-8">Add To Wish List</ButtonS>
+              <ButtonS className="px-8">Add To Cart</ButtonS>
             </div>
             {/* This section in use for button -end */}
 
@@ -217,7 +222,7 @@ const ProductInside = () => {
               placeholder="Your review here"
             />
           </div>
-          <ButtonS className="lg:mt-[40px] mt-5 lg:mb-[142px] mb-[30px]">
+          <ButtonS className="lg:mt-[40px] mt-5 lg:mb-[142px] mb-[30px] px-10">
             Post
           </ButtonS>
         </div>

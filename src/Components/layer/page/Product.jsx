@@ -34,7 +34,7 @@ const Product = () => {
           </div>
 
          <div>
-         <div className="products  w-[1190px]">
+         <div className="products  lg:w-[1190px] w-auto">
             {/*//----------------------------- product-page-top-start----------------------- */}
             <div className="w-full lg:flex items-start justify-between mb-[60px]">
               <div className="icon   gap-x-5 lg:flex hidden  ">

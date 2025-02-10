@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "./layer/Container";
 import Image from "./layer/Image";
+import Ads2 from "../assets/Ads2.jpg"
 
 const Banner02 = () => {
   return (
@@ -10,7 +11,7 @@ const Banner02 = () => {
           <Image
             className=" w-full object-cover"
             href="/"
-            src="../src/assets/Ads_2.jpg"
+            src={Ads2}
             alt="../src/assets/Ads_2.jpg"
           />
         </div>

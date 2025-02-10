@@ -8,6 +8,7 @@ import { FaPlus } from "react-icons/fa6";
 import { FaMinus } from "react-icons/fa6";
 import ButtonS from "./layer/ButtonS";
 import { Link } from "react-router-dom";
+import BS01 from "../assets/BS01.jpg"
 
 const Cart = () => {
   // --------------------------------------------------
@@ -44,7 +45,7 @@ const Cart = () => {
                   <RxCross2 className="font-bold text-[22px] hidden lg:inline" />
                   <Image
                     className="lg:w-[120px] object-contain lg:ml-10 mr-2"
-                    src="/src/assets/BS01.jpg"
+                    src={BS01}
                     alt="/src/assets/BS01.jpg"
                   />
                   <p className="font-DM font-bold lg:text-base text-sm lg:leading-6 leading-4 text-[#262626] py-4">

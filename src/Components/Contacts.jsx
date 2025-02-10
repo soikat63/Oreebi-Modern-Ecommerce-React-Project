@@ -37,7 +37,7 @@ const Contacts = () => {
             placeholder="Your message here"
           />
         </div>
-        <ButtonS className="lg:mt-[40px] mt-5 lg:mb-[142px] mb-[30px]">
+        <ButtonS className="lg:mt-[40px] mt-5 lg:mb-[142px] mb-[30px] lg:px-12 px-8">
           Post
         </ButtonS>
         <div className="relative">

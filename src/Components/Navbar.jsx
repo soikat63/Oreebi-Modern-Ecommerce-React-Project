@@ -3,6 +3,7 @@ import Container from "./layer/Container";
 import Image from "./layer/Image";
 import List from "./layer/List";
 import { FaBars } from "react-icons/fa6";
+import logo from "../assets/logo.png"
 
 const Navbar = () => {
   let [show, setShow] = useState(false);
@@ -31,7 +32,7 @@ const Navbar = () => {
         <div className="logo pl-3 lg:pl-0">
           <Image
             href="/"
-            src="../src/assets/logo.png"
+            src={logo}
             alt="../src/assets/logo.png"
           />
         </div>

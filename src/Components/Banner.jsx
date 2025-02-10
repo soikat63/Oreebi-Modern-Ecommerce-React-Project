@@ -124,7 +124,7 @@ const Banner = () => {
           <Image
             className="w-full"
             href="/"
-            src="../src/assets/Image01.png"
+            src={Image01}
             alt="../src/assets/Image01.png"
           />
         </div>

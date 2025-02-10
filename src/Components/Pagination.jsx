@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ReactPaginate from "react-paginate";
 import { ProductItem } from "./layer/ProductItem";
+import PI01 from "../assets/PI01.png"
 
 const items = [
   1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
@@ -23,11 +24,11 @@ function Items({ currentItems }) {
     <>
       {currentItems &&
         currentItems.map((item) => (
-          <div >
+          <div>
             <ProductItem
               // className="mx-auto"
               offer="10%"
-              src="../src/assets/PI01.png"
+              src={PI01}
               alt="../src/assets/PI01.png"
               text="  Basic Crew Neck Tee"
               price="$44.00"
