@@ -10,7 +10,7 @@ const RootLayout = () => {
       <Navbar />
       <SearchBar />
       <Outlet />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
